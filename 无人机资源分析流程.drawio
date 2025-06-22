@@ -4,8 +4,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eIETcqnKObXx6ht729yU-1" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="100" width="250" height="530" as="geometry" />
+        <mxCell id="eIETcqnKObXx6ht729yU-1" value="资源生成" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="100" width="370" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-6" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#067d17;&quot;&gt;&quot;3&quot;&lt;/span&gt;, &lt;span style=&quot;color:#067d17;&quot;&gt;&quot;4&quot;&lt;/span&gt;, &lt;span style=&quot;color:#067d17;&quot;&gt;&quot;5&quot;&lt;br/&gt;起飞状态&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eIETcqnKObXx6ht729yU-1">
+          <mxGeometry x="130" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-7" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#067d17;&quot;&gt;&quot;9&quot;&lt;/span&gt;, &lt;span style=&quot;color:#067d17;&quot;&gt;&quot;10&quot;&lt;/span&gt;, &lt;span style=&quot;color:#067d17;&quot;&gt;&quot;11&quot;&lt;br/&gt;&lt;/span&gt;,&lt;span style=&quot;color:#067d17;&quot;&gt;&quot;12&quot; 降落&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eIETcqnKObXx6ht729yU-1">
+          <mxGeometry x="130" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-3" value="无人机起飞&lt;br&gt;上报数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="eIETcqnKObXx6ht729yU-1">
+          <mxGeometry x="20" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-9" value="1.&amp;nbsp;websocket推送数据&lt;br&gt;2.&amp;nbsp;分析任务状态记录到&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;dji_flight_task_t表&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eIETcqnKObXx6ht729yU-1">
+          <mxGeometry x="100" y="130" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-10" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;分析经纬度匹配巡检点&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eIETcqnKObXx6ht729yU-1">
+          <mxGeometry x="100" y="250" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-11" value="&lt;div&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;调用下载服务下载媒体资源&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eIETcqnKObXx6ht729yU-1">
+          <mxGeometry x="100" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-1" value="资源同步分析（爬虫逻辑）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="260" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="MOkIfxdYRghTFhL4-oqi-2" value="资源分析" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="100" width="300" height="530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
